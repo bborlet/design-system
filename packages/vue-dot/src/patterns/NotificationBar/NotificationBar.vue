@@ -122,6 +122,8 @@
 				if (this.notification) {
 					if (this.notification.type === 'success') {
 						this.snackbarColor = '#56C271';
+					} else if (this.notification.type === 'warning') {
+						this.snackbarColor = '#f0b323';
 					} else {
 						this.snackbarColor = this.options.snackBar.color as string || this.notification.type;
 					}
