@@ -1,4 +1,4 @@
-import { PaletteBootstrap } from './types';
+import type { PaletteBootstrap } from './types';
 
 export const paletteBootstrap: PaletteBootstrap = {
 	amBlue: {
